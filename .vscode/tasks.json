@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "detail": "astro dev",
+      "isBackground": true,
+      "label": "npm: dev",
+      "problemMatcher": [
+        {
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": {
+              "regexp": "^> astro dev"
+            },
+            "endsPattern": {
+              "regexp": "watching for file changes...$"
+            }
+          },
+          "owner": "typescript",
+          "pattern": "$tsc"
+        }
+      ],
+      "script": "dev",
+      "type": "npm"
+    },
+    {
+      "detail": "astro build",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "npm: build",
+      "problemMatcher": [],
+      "script": "build",
+      "type": "npm"
+    },
+    {
+      "detail": "astro preview",
+      "isBackground": true,
+      "label": "npm: preview",
+      "problemMatcher": [
+        {
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": {
+              "regexp": "^> astro preview"
+            },
+            "endsPattern": {
+              "regexp": "ready in \\d+ ms$"
+            }
+          },
+          "owner": "typescript",
+          "pattern": "$tsc"
+        }
+      ],
+      "script": "preview",
+      "type": "npm"
+    }
+  ],
+  "version": "2.0.0"
+}
