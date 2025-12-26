@@ -1,8 +1,10 @@
 ---
-import Main from "~/components/Main.astro";
+import { Counter } from "~/components/counter";
+import { Greeting } from "~/components/greeting";
 import Layout from "~/layouts/Layout.astro";
 ---
 
 <Layout>
-  <Main />
+  <Greeting name="Astro + React" className="absolute top-4 right-4" />
+  <Counter client:load className="m-4" />
 </Layout>

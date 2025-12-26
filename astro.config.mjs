@@ -1,3 +1,4 @@
+import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
@@ -7,7 +8,7 @@ export default defineConfig({
   build: {
     format: "file",
   },
-  integrations: [sitemap()],
+  integrations: [react(), sitemap()],
   site: `https://example.com`,
   trailingSlash: "never",
   vite: {
