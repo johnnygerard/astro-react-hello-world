@@ -41,7 +41,8 @@
     "test": "vitest run",
     "test:watch": "vitest watch",
     "toolbar:disable": "astro preferences disable devToolbar",
-    "toolbar:enable": "astro preferences enable devToolbar"
+    "toolbar:enable": "astro preferences enable devToolbar",
+    "wrangler": "wrangler"
   },
   "type": "module",
   "version": "0.0.0"
