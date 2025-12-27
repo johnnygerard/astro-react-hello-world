@@ -1,12 +1,9 @@
-# Astro 5 Starter
+# Astro React Hello World
 
-This starter repository facilitates the creation of new Astro projects using the configuration described below.  
-To learn how to use a GitHub template repository, check
-out [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This simple project demonstrates how to integrate React components within an Astro application.
 
-![project status](https://img.shields.io/badge/status-work_in_progress-red?style=for-the-badge)
-![live site](https://img.shields.io/badge/live_site-blue?style=for-the-badge)
-![Lighthouse report](https://img.shields.io/badge/lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=fff)
+![project status](https://img.shields.io/badge/project_status-completed-success?style=for-the-badge)
+[![live site](https://img.shields.io/badge/live_site-blue?style=for-the-badge)](https://astro-react-hello-world.mail-25a.workers.dev/)
 
 ## Tech Stack
 
