@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "dist"
+  },
+  "compatibility_date": "2025-12-10",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "main": "dist/_worker.js/index.js",
+  "name": "astro-react-hello-world",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "NODE_VERSION": "24"
+  }
+}

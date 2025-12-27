@@ -12,12 +12,12 @@ out [Creating a repository from a template](https://docs.github.com/en/repositor
 
 ### Frontend
 
-- **SSG**: [Astro 5](https://astro.build/)
+- **Framework**: [Astro 5](https://astro.build/)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 
 ### Backend
 
-- **CDN**: [Vercel](https://vercel.com/docs/cdn)
+- **Hosting**: [Cloudflare Workers](https://workers.cloudflare.com/)
 
 ## How to Update
 
