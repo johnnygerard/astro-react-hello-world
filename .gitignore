@@ -1,3 +1,7 @@
 /.astro/
 /dist/
 /node_modules/
+
+# Wrangler
+/worker-configuration.d.ts
+/.wrangler/
