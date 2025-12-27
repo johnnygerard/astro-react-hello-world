@@ -10,8 +10,5 @@
   "name": "astro-react-hello-world",
   "observability": {
     "enabled": true
-  },
-  "vars": {
-    "NODE_VERSION": "24"
   }
 }
