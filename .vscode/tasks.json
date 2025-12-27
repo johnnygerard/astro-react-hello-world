@@ -34,7 +34,7 @@
       "type": "npm"
     },
     {
-      "detail": "astro preview",
+      "detail": "npm run build && wrangler dev",
       "isBackground": true,
       "label": "npm: preview",
       "problemMatcher": [
@@ -42,10 +42,10 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": {
-              "regexp": "^> astro preview"
+              "regexp": "astro build"
             },
             "endsPattern": {
-              "regexp": "ready in \\d+ ms$"
+              "regexp": "Ready on http://localhost:8787"
             }
           },
           "owner": "typescript",
